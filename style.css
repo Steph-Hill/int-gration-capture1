@@ -1,0 +1,201 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "roboto", sans-serif;
+}
+
+html, body{
+    width:100%;
+    overflow-x:hidden;
+}
+
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 5rem;
+        margin: 2rem;
+        
+        
+    }
+    .logo img{
+        display: flex;
+        block-size: 3rem;
+    }
+
+   
+    
+   .lien{
+
+    display: flex;
+    flex: .5;    
+    justify-content: space-between;
+     
+   }
+
+   
+
+   .bouton{
+
+    display: flex;
+    align-items: center;
+    
+
+   }
+
+   .bouton li{
+    
+    margin-left: .5rem;
+    
+   }
+   .bouton .btn1{
+
+    display: flex;
+    block-size: 2.3rem ;
+    width: 4rem;
+    padding-left: .9rem;
+    margin-right: .5rem;
+    align-items: center;
+    background-color: rgb(7, 10, 8);
+    border-radius: .3rem;
+    border-style: none;
+
+
+   }
+
+   .bouton .btn2{
+
+    display: flex;
+    block-size: 2.3rem ;
+    width: 6rem;
+    padding-left: .7rem;
+    margin-right: .05rem;
+    align-items: center;
+    background-color: rgba(3, 83, 59, 0.863);
+    border-radius: .3rem;
+    border-style: none;
+   
+   }
+
+
+   .bouton .btn2 .textBtn2{
+
+    color: #fff;
+
+   }
+
+
+   .bouton .btn1 .textBtn1{
+
+    color: #fff;
+
+   }
+
+   .desc{
+
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        align-content: center;
+        flex: 1;
+        margin: 6rem;
+        padding: 1rem;
+        block-size: 20rem;
+
+   }
+
+   h1{
+       font-size: 3rem;
+       margin-bottom: -15rem;
+
+   }
+
+   .box{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1.5rem;
+    padding-right: 5rem;
+   }
+   
+   .img2{
+    display: flex;
+    block-size: 30rem;
+    margin-right: .1rem;
+    padding-right: 5rem;
+   }
+
+
+
+     p{
+    display: flex;
+    margin-top: -1.5rem;
+    margin-left: -10rem;
+    margin-right: -5rem;
+    margin-bottom: -7rem;
+    padding: 10rem;
+    font-size: 1.2rem;
+    text-align:start 2rem;
+    line-height: 2rem;
+    flex-wrap: wrap;
+   }
+
+   h2{
+
+    text-align: center;
+    font-size: 2rem;
+    width: 40%;
+    margin-left: 30rem;
+    padding-top: 2rem;
+   }
+
+   .footer{
+
+    width: 100rem;
+    height: 15rem;
+    display: flex;
+   
+   }
+
+   .footer .connect{
+    margin-left: 5rem;
+    padding-top: 5rem;
+    
+
+   }
+
+   .footer .connect h3{
+
+    text-align:left;
+    font-size: 2rem;
+    padding-top: 2rem;
+   
+   }
+
+   .endp{
+
+    padding-top: 2rem;
+    text-align: left;
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.474);
+   }
+
+
+
+  /*  @media screen and(min-width: 400px) {
+       
+    p{
+    display: flex;
+    margin-top: 8.5rem;
+    margin-left: -10rem;
+    margin-right: -14rem;
+    margin-bottom: -6rem;
+    padding: 7rem;
+    font-size: 1.2rem;
+
+    }
+    
+   } */
